@@ -128,8 +128,7 @@ for ($i=0; $i < count($reasons); $i++) {
 
 <div class="wrap_panel">
 
-    <div class="wraper_faq">
-        
+    <div class="wraper_faq">   
     <?php
     foreach ($faq as $key => $value){
         echo "<div class='faq_panel'> <h5>{$faq[$key][0]} </h5></div>
@@ -137,18 +136,7 @@ for ($i=0; $i < count($reasons); $i++) {
         next($faq);
     }
     ?>   
-
-        <!-- <div class="faq_panel"> <h5>Какова стоимость путешествия </h5></div>
-        <div class="faq_answer"> <p> Стоимость путешествия зависит от страны</p></div> -->
     </div>
-    <!-- <div class="wraper_faq">
-        <div class="faq_panel"> <h5>Есть ли страховка в путешествии? </h5></div>
-        <div class="faq_answer"> <p> Нет, все будет нормально</p></div>
-    </div>
-    <div class="wraper_faq">
-        <div class="faq_panel"> <h5> Нужен ли загранник для получения визы?</h5></div>
-        <div class="faq_answer"> <p> Да, очень нужен</p></div>
-    </div> -->
 
 </div>
 
